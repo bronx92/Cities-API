@@ -41,7 +41,7 @@ public class CountryResource {
         public Optional<Country> getOne(@PathVariable Long id) {
             return repository.findById(id);
         }
-        Ou
+       Ou
         public Country getOne(@PathVariable Long id) {
             Optional<Country> optional = repository.findById(id);
             return optional.get();
