@@ -1,4 +1,4 @@
-package com.github.bronx92.citiesapi.model;
+package com.github.bronx92.citiesapi.models;
 
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;

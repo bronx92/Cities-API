@@ -1,7 +1,7 @@
-package com.github.bronx92.citiesapi.controller;
+package com.github.bronx92.citiesapi.controllers;
 
-import com.github.bronx92.citiesapi.model.State;
-import com.github.bronx92.citiesapi.repository.StateRepository;
+import com.github.bronx92.citiesapi.models.State;
+import com.github.bronx92.citiesapi.repositories.StateRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

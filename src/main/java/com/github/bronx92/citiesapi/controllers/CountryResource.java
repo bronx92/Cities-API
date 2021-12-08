@@ -1,7 +1,7 @@
-package com.github.bronx92.citiesapi.controller;
+package com.github.bronx92.citiesapi.controllers;
 
-import com.github.bronx92.citiesapi.model.Country;
-import com.github.bronx92.citiesapi.repository.CountryRepository;
+import com.github.bronx92.citiesapi.models.Country;
+import com.github.bronx92.citiesapi.repositories.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

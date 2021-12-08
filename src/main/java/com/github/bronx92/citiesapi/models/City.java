@@ -1,4 +1,4 @@
-package com.github.bronx92.citiesapi.model;
+package com.github.bronx92.citiesapi.models;
 
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;

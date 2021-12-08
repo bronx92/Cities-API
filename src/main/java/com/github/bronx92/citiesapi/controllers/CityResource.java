@@ -1,7 +1,7 @@
-package com.github.bronx92.citiesapi.controller;
+package com.github.bronx92.citiesapi.controllers;
 
-import com.github.bronx92.citiesapi.model.City;
-import com.github.bronx92.citiesapi.repository.CityRepository;
+import com.github.bronx92.citiesapi.models.City;
+import com.github.bronx92.citiesapi.repositories.CityRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
