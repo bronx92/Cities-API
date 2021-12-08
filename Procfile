@@ -1,1 +1,1 @@
-java -jar target/citiesapi-1.0.0.jar
+java -jar -Dspring.profiles.active=heroku target/citiesapi-1.0.0.jar
