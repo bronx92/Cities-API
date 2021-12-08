@@ -1,1 +1,1 @@
-java -jar -Dspring.profiles.active=heroku target/citiesapi-1.0.0.jar
+web: java $JAVA_OPTS -Dspring.profiles.active=heroku -Dserver.port=$PORT -jar target/*.jar
